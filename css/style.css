@@ -1,0 +1,153 @@
+/* average-sans-regular - latin */
+@font-face {
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/average-sans-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/average-sans-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/average-sans-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/average-sans-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/average-sans-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/average-sans-v16-latin-regular.svg#AverageSans') format('svg'); /* Legacy iOS */
+  }/* baloo-bhaijaan-2-regular - latin */
+@font-face {
+    font-family: 'Baloo Bhaijaan 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/baloo-bhaijaan-2-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/baloo-bhaijaan-2-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-regular.svg#BalooBhaijaan2') format('svg'); /* Legacy iOS */
+  }
+  /* baloo-bhaijaan-2-500 - latin */
+  @font-face {
+    font-family: 'Baloo Bhaijaan 2';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/baloo-bhaijaan-2-v14-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/baloo-bhaijaan-2-v14-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-500.svg#BalooBhaijaan2') format('svg'); /* Legacy iOS */
+  }
+  /* baloo-bhaijaan-2-700 - latin */
+  @font-face {
+    font-family: 'Baloo Bhaijaan 2';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/baloo-bhaijaan-2-v14-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/baloo-bhaijaan-2-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/baloo-bhaijaan-2-v14-latin-700.svg#BalooBhaijaan2') format('svg'); /* Legacy iOS */
+  }
+  header{
+        position: fixed;
+    top: o;
+    left: 80px;
+    width: 100%;
+
+      }
+
+  .gmenu{
+    width: 1662px;
+      margin: 58px auto;
+      
+  }
+ .menuone{
+  margin-left: 591px;
+  margin-bottom: auto;
+  
+  
+      
+      
+  }
+  .fmenu{
+    display: flex;
+    
+  }
+  .menu-list {
+       display:inline-block;
+       padding-left: 40px;
+       margin-bottom: auto;
+     }
+  
+     
+  li{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: auto;
+font-size: 18px;
+line-height: 22px;
+color:white;
+  }
+  
+
+  .account{
+    margin-left: auto;
+      }
+      
+      .menu-list:hover, .menu-list:focus, .menu-list:active{
+       opacity: .75;
+      }
+      .account:hover, .account:focus, .account:active{
+        opacity: .75;
+ 
+       }
+
+      
+
+
+/* Baground */
+/* #0B1D26; */
+.fonn{
+  height: 150vh;
+  width: 100%;
+  background-color: #0B1D26;
+}
+
+  .intro{
+  height: 150vh;
+  width: 100%;
+  background: 
+  url(/img/BG2.png) no-repeat  center top;
+  }
+
+  .bgone{
+    height: 150vh;
+    width: 100%;
+    background:url(/img/BG1.png) no-repeat center 0px ;
+  }
+  
+  .bgthird{
+    height: 400vh;
+    width: 100%;
+    background:url(/img/MG3.png) no-repeat center 483px ;
+  }
+
+  .bgfour{
+    height: 400vh;
+    width: 100%;
+    background:url(/img/BG4.png) no-repeat center 768px ;
+  }
+
+  .bgfive{
+    height: 400vh;
+    width: 100%;
+    background:url(/img/BG5.png) no-repeat center 1200px ;
+  }
+
+/* Baground */
+
+  
+ 
+
+
