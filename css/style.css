@@ -50,13 +50,16 @@
          url('../fonts/baloo-bhaijaan-2-v14-latin-700.svg#BalooBhaijaan2') format('svg'); /* Legacy iOS */
   }
   header{
-        position: fixed;
+   position: fixed;
     top: o;
-    left: 80px;
+    left: 50%;
     width: 100%;
+    transform: translate(-50%, -50%);
+    }
 
+      .logo{
+        padding-left: 0px;
       }
-
   .gmenu{
     width: 1662px;
       margin: 58px auto;
@@ -97,6 +100,7 @@ color:white;
       
       .menu-list:hover, .menu-list:focus, .menu-list:active{
        opacity: .75;
+       
       }
       .account:hover, .account:focus, .account:active{
         opacity: .75;
@@ -108,6 +112,11 @@ color:white;
 
 /* Baground */
 /* #0B1D26; */
+/* .mainbg{
+  position: fixed;
+} */
+
+
 .fonn{
   height: 150vh;
   width: 100%;
@@ -145,9 +154,376 @@ color:white;
     background:url(/img/BG5.png) no-repeat center 1200px ;
   }
 
+  body{
+background-color: #0B1D26;
+  }
+
 /* Baground */
 
   
+ /* Menu */
+
+.textcontainer{
+  position:absolute;
+  top: 287px;
+width: 950px;
+margin-left: 500px;
+}
+
+.bottombottom{
+  background-image: url(/img/scroll.png) no-repeat;
+}
+.top2{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+color:#FBD784;
+letter-spacing: 6px;
+text-transform: uppercase;
+}
+
+.centercenter{
+font-family: 'Chronicle Display';
+font-style: normal;
+font-weight: 400;
+font-size: 88px;
+line-height: 100px;
+color: white;
+padding-top: 25px;
+}
+
+.bottombottom{
+  padding-top: 25px;
+}
+
+.toptop{
+  display: flex;
+  
+
+}
+.top2{
+  padding-left: 32px;
+}
+
+/* FOLLOW */
+
+.follow{
+  position:absolute;
+  top: 359px;
+width: 22px;
+margin-left: 82px;
+}
+
+.textfollow{
+padding-left: 4px;
+}
+
+.insta{
+  padding-top: 26px;
+}
+.twitter{
+  position: absolute;
+  padding-top: 26px;
+}
+
+.insta:hover{
+  opacity: .75;
+border-bottom: white solid;
+padding-bottom: 5px;
+}
+.twitter:hover{
+  opacity: .75;
+  border-bottom:  white  solid;
+  padding-bottom: 5px;
+  
+}
+.bottombottom:hover{
+  width: 95px;
+  opacity: .75;
+  border-bottom:  white  solid;
+  padding-bottom: 5px;
+}
+
+/* FOLLOW */
+
+/* Текст 01 */
+
+.textcontainer01{
+  position:absolute;
+  top: 1581px;
+width: 632px;
+margin-left: 379px;
+}
+
+.bottombottom01{
+  background-image: url(/img/scroll.png) no-repeat;
+}
+.top101{
+  padding-top: 3px;
+}
+.top201{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+   letter-spacing: 6px;
+  text-transform: uppercase;
+color:#FBD784;
+}
+
+.centercenter01{
+  font-family: 'Chronicle Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+    color: #FFFFFF;
+    width: 600px;
+  
+}
+
+.bottombottom01{
+  width: 632px;
+  padding-top: 25px;
+  color: white;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+}
+
+.toptop01{
+  display: flex;
+  
+
+}
+.top201{
+  padding-left: 32px;
+}
+
+
+
+.photo01{
+  padding-left: 1125px;
+}
+.n01{
+  position: absolute;
+  bottom: 300px;
+  right:560px;
+}
+/* Текст 02 */
+.textcontainer02{
+  position:absolute;
+  top: 2501px;
+width: 500px;
+margin-left: 1059px;
+}
+
+.bottombottom02{
+  background-image: url(/img/scroll.png) no-repeat;
+}
+.top102{
+  padding-top: 3px;
+}
+.top202{
+  /* white-space: nowrap; */
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+   letter-spacing: 6px;
+  text-transform: uppercase;
+color:#FBD784;
+}
+
+.centercenter02{
+  font-family: 'Chronicle Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+    color: #FFFFFF;
+    width: 600px;
+  
+}
+
+.bottombottom02{
+  width: 632px;
+  padding-top: 25px;
+  color: white;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+}
+
+.toptop02{
+  display: flex;
+  
+
+}
+.top202{
+  width: 100%;
+  padding-left: 32px;
+}
+
+.photo02{
+  padding-top: 200px;
+  padding-left: 229px;
+}
+
+.n02{
+  position: absolute;
+  bottom: 300px;
+  right: 350px;
+}
+
+/* Текст 03 */
+
+.textcontainer03{
+  position:absolute;
+  top: 3421px;
+width: 632px;
+margin-left: 379px;
+}
+
+.bottombottom03{
+  background-image: url(/img/scroll.png) no-repeat;
+}
+.top103{
+  padding-top: 3px;
+}
+.top203{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+   letter-spacing: 6px;
+  text-transform: uppercase;
+color:#FBD784;
+}
+
+.centercenter03{
+  font-family: 'Chronicle Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+    color: #FFFFFF;
+    width: 600px;
+  
+}
+
+.bottombottom03{
+  width: 632px;
+  padding-top: 25px;
+  color: white;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+}
+
+.toptop03{
+  display: flex;
+  
+
+}
+.top203{
+  padding-left: 32px;
+}
+
+
+
+.photo03{
+  padding-top: 200px;
+  padding-left: 1125px;
+}
+.n03{
+  position: absolute;
+  bottom: 280px;
+  right:520px;
+}
+
+/* ПОДВАЛ */
+
+
+.footer01{
+    padding-top: 100px;
+  /* width: 632px; */
+  padding-left: 229px;
  
+}
+.footer02{
+  padding-top: 24px;
+width: 250px;
+padding-left: 229px;
+color: white;
+}
+.footer03{
+  padding-top: 122px;
+width: 400px;
+padding-left: 229px;
+color: gray;
+padding-bottom: 30px;
+}
 
+.footer04{
+  padding-top: 95px;
+  width: 250px;
+  padding-left: 0px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #FBD784;
+}
 
+.footerg{
+  margin-top: 100px;
+  display: flex;
+  background-color:#173146;
+  
+}
+
+.footer1{
+
+    width: 1125px;
+  
+}
+.footer2{
+  
+  width: 405px;
+}
+
+.li1{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 040px;
+color: #FFFFFF;
+}
+
+.footer3{
+  
+  width: 200px;
+}
+
+.li2{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 040px;
+color: #FFFFFF;
+}
