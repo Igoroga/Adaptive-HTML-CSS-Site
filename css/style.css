@@ -127,31 +127,31 @@ color:white;
   height: 150vh;
   width: 100%;
   background: 
-  url(/img/BG2.png) no-repeat  center top;
+  url(../img/BG2.png) no-repeat  center top;
   }
 
   .bgone{
     height: 150vh;
     width: 100%;
-    background:url(/img/BG1.png) no-repeat center 0px ;
+    background:url(../img/BG1.png) no-repeat center 0px ;
   }
   
   .bgthird{
     height: 400vh;
     width: 100%;
-    background:url(/img/MG3.png) no-repeat center 483px ;
+    background:url(../img/MG3.png) no-repeat center 483px ;
   }
 
   .bgfour{
     height: 400vh;
     width: 100%;
-    background:url(/img/BG4.png) no-repeat center 768px ;
+    background:url(../img/BG4.png) no-repeat center 768px ;
   }
 
   .bgfive{
     height: 400vh;
     width: 100%;
-    background:url(/img/BG5.png) no-repeat center 1200px ;
+    background:url(../img/BG5.png) no-repeat center 1200px ;
   }
 
   body{
@@ -171,7 +171,7 @@ margin-left: 500px;
 }
 
 .bottombottom{
-  background-image: url(/img/scroll.png) no-repeat;
+  background-image: url(../img/scroll.png) no-repeat;
 }
 .top2{
 font-family: 'Gilroy';
@@ -258,7 +258,7 @@ margin-left: 379px;
 }
 
 .bottombottom01{
-  background-image: url(/img/scroll.png) no-repeat;
+  background-image: url(../img/scroll.png) no-repeat;
 }
 .top101{
   padding-top: 3px;
@@ -324,7 +324,7 @@ margin-left: 1059px;
 }
 
 .bottombottom02{
-  background-image: url(/img/scroll.png) no-repeat;
+  background-image: url(../img/scroll.png) no-repeat;
 }
 .top102{
   padding-top: 3px;
@@ -394,7 +394,7 @@ margin-left: 379px;
 }
 
 .bottombottom03{
-  background-image: url(/img/scroll.png) no-repeat;
+  background-image: url(../img/scroll.png) no-repeat;
 }
 .top103{
   padding-top: 3px;
@@ -526,4 +526,121 @@ font-weight: 500;
 font-size: 14px;
 line-height: 040px;
 color: #FFFFFF;
+}
+
+/* Телефон */
+
+@media screen and (max-width: 450px) {
+
+  header{
+    position: fixed;
+     top: 20px;
+     left: 6%;
+     width: 20%;
+    
+     }
+ 
+       .logo{
+         padding-left: 0px;
+       }
+   .gmenu{
+     width: 300px;
+       margin: 0px 20px;
+       
+   }
+  .menuone{
+   margin-left: 50px;
+   margin-bottom: auto;
+   width: 180px;
+   
+   
+       
+       
+   }
+   .fmenu{
+     display: flex;
+     
+   }
+   .menu-list {
+        display:inline-block;
+        padding-left: 10px;
+        margin-bottom: auto;
+      }
+   
+      
+   li{
+     font-family: 'Gilroy';
+ font-style: normal;
+ font-weight: auto;
+ font-size: 12px;
+ line-height: 22px;
+ color:white;
+   }
+   
+ 
+   .account{
+     margin-right: 0px;
+       }
+       
+       .menu-list:hover, .menu-list:focus, .menu-list:active{
+        opacity: .75;
+        
+       }
+       .account:hover, .account:focus, .account:active{
+         opacity: .75;
+  
+        }
+ 
+  
+  .fonn{
+    height: 150vh;
+    
+    width: 425px;
+    background-color: #0B1D26;
+    background:cover;
+  }
+  
+    .intro{
+    height: 150vh;
+    width: 425px;
+    background: 
+    url(../img/BG2.png) no-repeat  center top;
+    background-size: 425px auto;
+  }
+   
+  
+    .bgone{
+      height: 150vh;
+      width: 100%;
+      background:url(../img/BG1.png) no-repeat center 0px;
+      background-size: 425px auto;
+    }
+    
+    .bgthird{
+      height: 400vh;
+      width: 100%;
+      background:url(../img/MG3.png) no-repeat center 100px ;
+      background-size: 425px auto;
+    }
+  
+    .bgfour{
+      height: 400vh;
+      width: 100%;
+      background:url(../img/BG4.png) no-repeat center 255px ;
+      background-size: 425px auto;
+    }
+  
+    .bgfive{
+      height: 400vh;
+      width: 100%;
+      background:url(../img/BG5.png) no-repeat center 350px ;
+      background-size: 425px auto;
+    }
+  
+    body{
+  background-color: #0B1D26;
+  background-size: 425px auto;
+    }
+
+  
 }
